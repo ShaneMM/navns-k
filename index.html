@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navnnnnnn og tingg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Arsenal Navnsøk</h1>
+        <input type="text" id="nameInput" placeholder="Skriv inn et navn">
+        <button onclick="checkName()">Søk</button>
+
+        <div id="result" class="hidden">
+            <h2 id="fullName"></h2>
+            <h3 id="position"></h3>
+            <p id="description"></p>
+            <img id="image" src="" alt="Bilde" class="hidden">
+        </div>
+
+        <p id="errorMessage" class="hidden">Ingen i arsenal sitt lag for 2024/25 har det navnet</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
